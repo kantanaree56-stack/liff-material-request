@@ -1,12 +1,28 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html>
-...
-<input id="username" disabled>
-<select id="project">...</select>
-<textarea id="material"></textarea>
+<head>
+  <meta charset="utf-8">
+  <title>ขอวัสดุก่อสร้าง</title>
+</head>
+<body>
+
+<h2>แบบฟอร์มขอวัสดุ</h2>
+
+<label>ชื่อผู้ขอ</label><br>
+<input id="username" disabled><br><br>
+
+<label>โครงการ</label><br>
+<input id="project"><br><br>
+
+<label>รายการวัสดุ</label><br>
+<textarea id="material"></textarea><br><br>
+
+<label>วันที่ต้องการ</label><br>
+<input type="date" id="date"><br><br>
+
 <button onclick="submitForm()">ส่งคำขอ</button>
-...
+
 <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
 <script src="main.js"></script>
+</body>
 </html>
