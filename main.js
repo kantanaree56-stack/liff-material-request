@@ -13,7 +13,7 @@ window.onload = async () => {
 };
 
 function submitForm() {
-  fetch("https://script.google.com/u/0/home/projects/1HAWGGjkIhDiMR6NTZcN3n_hHhB9n4zw1LqMhhmuI5VcJrmtVOSFOtRhi/edit", {
+  fetch("https://script.google.com/macros/s/AKfycbwCo9jgUMB0S4GP4bgTgVha6K0mJ494x7vxLCRe1Nc/dev", {
     method: "POST",
     body: JSON.stringify({
       userId: window.lineUserId,
@@ -24,5 +24,6 @@ function submitForm() {
     })
   })
 }
+
 
 
