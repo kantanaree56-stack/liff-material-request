@@ -13,7 +13,7 @@ window.onload = async () => {
 };
 
 function submitForm() {
-  fetch("YOUR_GOOGLE_SCRIPT_URL", {
+  fetch("https://script.google.com/u/0/home/projects/1HAWGGjkIhDiMR6NTZcN3n_hHhB9n4zw1LqMhhmuI5VcJrmtVOSFOtRhi/edit", {
     method: "POST",
     body: JSON.stringify({
       userId: window.lineUserId,
@@ -24,3 +24,4 @@ function submitForm() {
     })
   })
 }
+
