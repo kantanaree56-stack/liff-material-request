@@ -1,4 +1,4 @@
-const LIFF_ID = "YOUR_LIFF_ID";
+const LIFF_ID = "2008660204-oLmmiiNa";
 
 window.onload = async () => {
   await liff.init({ liffId: LIFF_ID });
@@ -24,4 +24,5 @@ function submitForm() {
     })
   })
 }
+
 
